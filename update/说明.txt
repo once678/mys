@@ -1,0 +1,18 @@
+1.2.3版本升级接口
+文件名：leanback.json
+位置：
+androidx.appcompat.widget
+C  d1
+const-string v2,"https://raw.githubusercontent.com/FongMi/TV/main/release/leanback.json"
+
+1.2.3版本首页推荐
+位置：
+com.fongmi.android.tv.ui.activity
+C  SearchActivity
+const-string v0,"https://node.video.qq.com/x/api/hot_mobilesearch?channdlId=0"
+
+1.2.3版本节目更新推荐
+位置：
+com.fongmi.android.tv.ui.activity
+C  SearchActivity$b
+const-string v2,"https://suggest.video.iqiyi.com/?if=mobile&key="
